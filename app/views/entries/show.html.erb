@@ -1,0 +1,13 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @entry.name %>
+  <%= image_tag @entry.image.url %>
+  <%= image_tag @entry.image.url(:medium) %>
+  <%= image_tag @entry.image.url(:thumb) %>
+</p>
+
+
+<%= link_to 'Edit', edit_entry_path(@entry) %> |
+<%= link_to 'Back', entries_path %>
