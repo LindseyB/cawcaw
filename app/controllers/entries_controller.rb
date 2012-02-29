@@ -1,4 +1,5 @@
 class EntriesController < ApplicationController
+  before_filter :authenticate
   # GET /entries
   # GET /entries.json
   def index
