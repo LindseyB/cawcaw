@@ -23,6 +23,7 @@ end
 gem 'jquery-rails'
 gem "therubyracer", :require => 'v8'
 gem "paperclip", "~> 2.0"
+gem "will_paginate"
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
