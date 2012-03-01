@@ -1,0 +1,8 @@
+<h1>
+  <%= @entry.name %>
+</h1>
+<p>
+  <%= link_to image_tag(@entry.image.url(:large)), @entry.image.url %>
+</p>
+
+<%= link_to 'Back', home_index_path %>

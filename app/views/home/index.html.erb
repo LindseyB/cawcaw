@@ -1,5 +1,5 @@
 <h1>CAW CAW</h1>
 <% @entries.each do |entry| %>
-  <%= image_tag entry.image.url(:medium) %>
+  <%= link_to image_tag(entry.image.url(:medium)), details_url(:id => entry.id) %>
 <% end %>
 <%= will_paginate(@entries) %>
