@@ -31,6 +31,7 @@ gem 'therubyracer', :require => 'v8'
 gem 'paperclip', '~> 2.0'
 gem 'will_paginate'
 gem 'aws-s3'
+gem 'aws-sdk'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
