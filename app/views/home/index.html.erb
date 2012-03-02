@@ -2,7 +2,7 @@
   <div id="body">
   <h1>Caw Caw!</h1>
   <div class="row">
-  <% @entries.each_with_index do |entry, i| %>
+  <% @entries.reverse.each_with_index do |entry, i| %>
     <% if i != 0 and i%2 == 0 %>
       </div>
       <div class="row">
