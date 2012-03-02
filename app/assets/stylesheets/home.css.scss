@@ -1,3 +1,80 @@
-// Place all the styles related to the home controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  padding: 0;
+  margin: 0;
+  background-image: url('background.png');
+}
+
+#topstripe {
+  background-color: #482570;
+  width: 100%;
+  height: 10px;
+}
+
+#body {
+  margin: 20px auto;
+  width: 900px;
+  
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Sansita One', cursive;
+  font-size: 72pt;
+  text-shadow: 0 4px 8px #666;
+}
+
+.pagination {
+  text-align: center;
+  font-family: 'Arial', 'Helvetica', 'FreeSans', sans-serif; 
+  margin-bottom: 20px;
+
+  a,span,.current {
+    background-color: #482570;
+    border-radius: 5px;
+    padding: 3px;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  a:hover {
+    background-color: #482570;
+  }
+
+  a:visited {
+    color: #aa8dcc;
+  }
+
+  span,.current{ 
+    background-color: #aaa;
+  }
+}
+
+.row {
+  text-align: center;
+
+  img {
+    border: solid 7px #fff;
+    box-shadow: 0 0 10px #666;
+    margin: 10px;
+  }
+
+  a:hover {
+    background-color: transparent;
+  }
+}
+
+.display {
+  text-align: center;
+
+  img {
+    border: solid 7px #fff;
+    box-shadow: 0 0 10px #666;
+    margin: 10px;
+  }
+
+  a:hover {
+    background-color: transparent;
+  }
+}
+
+

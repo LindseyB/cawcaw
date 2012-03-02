@@ -1,8 +1,12 @@
-<h1>
-  <%= @entry.name %>
-</h1>
-<p>
-  <%= link_to image_tag(@entry.image.url(:large)), @entry.image.url %>
-</p>
-
-<%= link_to 'Back', home_index_path %>
+<div id="topstripe"></div>
+<div id="body">
+  <h1>
+    Caw Caw!
+  </h1>
+  <p class="display">
+    <%= link_to image_tag(@entry.image.url(:large)), @entry.image.url %>
+  </p>
+  <div class="pagination">
+    <%= link_to 'Back', home_index_path %>
+  </div>
+</div>

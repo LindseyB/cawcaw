@@ -1,5 +1,14 @@
-<h1>CAW CAW</h1>
-<% @entries.each do |entry| %>
-  <%= link_to image_tag(entry.image.url(:medium)), details_url(:id => entry.id) %>
-<% end %>
+<div id="topstripe"></div>
+  <div id="body">
+  <h1>Caw Caw!</h1>
+  <div class="row">
+  <% @entries.each_with_index do |entry, i| %>
+    <% if i != 0 and i%2 == 0 %>
+      </div>
+      <div class="row">
+    <% end %>
+    <%= link_to image_tag(entry.image.url(:medium)), details_url(:id => entry.id) %>
+  <% end %>
+  </div>
 <%= will_paginate(@entries) %>
+</div>
