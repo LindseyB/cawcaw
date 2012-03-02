@@ -16,3 +16,6 @@
 
 # Ignore all uploaded images
 public/system/images
+
+# Ignore our config file - protect the password
+config/config.yml
