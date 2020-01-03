@@ -74,7 +74,7 @@ GEM
       activesupport (>= 2.3.2)
       cocaine (>= 0.0.2)
       mime-types
-    pg (0.14.1)
+    pg (1.2.1)
     polyglot (0.3.3)
     rack (1.4.3)
     rack-cache (1.2)
