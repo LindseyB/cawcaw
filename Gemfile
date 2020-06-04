@@ -28,7 +28,7 @@ end
 
 gem 'jquery-rails'
 gem 'therubyracer', :require => 'v8'
-gem 'paperclip', '~> 2.0'
+gem 'paperclip', '~> 4.3'
 gem 'will_paginate'
 gem 'aws-s3'
 gem 'aws-sdk'
