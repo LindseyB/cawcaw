@@ -1035,7 +1035,7 @@ GEM
     uglifier (2.7.2)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
-    will_paginate (3.0.5)
+    will_paginate (3.3.0)
     xml-simple (1.1.2)
 
 PLATFORMS
